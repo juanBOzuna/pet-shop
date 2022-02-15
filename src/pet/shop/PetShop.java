@@ -25,6 +25,5 @@ public class PetShop {
         objDate2.set(Calendar.DAY_OF_MONTH, 1);
         System.out.println(objDate2.get(Calendar.DAY_OF_MONTH));
         System.out.println(objDate2.getTime());
-
     }
 }
