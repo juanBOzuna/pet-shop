@@ -16,6 +16,9 @@ public class Purchase {
     int idCompra;
     double total_price;
     Calendar date;
+    double discount;
+    double iva;
+    
     
 //    Date
     
