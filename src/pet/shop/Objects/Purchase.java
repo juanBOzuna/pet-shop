@@ -12,15 +12,18 @@ import java.util.Calendar;
  * @author juan barraza
  */
 public class Purchase {
-    
+
     int idCompra;
     double total_price;
     Calendar date;
     double discount;
     double iva;
-    
-    
-//    Date
-    
-    
+
+    public Purchase(int idCompra, double total_price, Calendar date, double discount, double iva) {
+        this.idCompra = idCompra;
+        this.total_price = total_price;
+        this.date = date;
+        this.discount = discount;
+        this.iva = iva;
+    }
 }
